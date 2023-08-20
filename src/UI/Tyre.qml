@@ -15,52 +15,40 @@ Rectangle {
         y: tyreRoot.yDiff
     }
 
-    Text {
-        text: "PSI"
-        x: parent.width / 10
-        y: tyreRoot.yDiff * 2
-    }
+    TyreSettings {}
 
-    Text {
-        text: "--.-"
-        x: parent.width / 10 + camberText.contentWidth + 10
-        y: tyreRoot.yDiff * 2
-    }
+    TyreValues {}
 
-    Text {
-        text: "Toe"
-        x: parent.width / 10
-        y: tyreRoot.yDiff * 3
-    }
+    TyreValues {}
 
-    Text {
-        text: "--.-"
-        x: parent.width / 10 + camberText.contentWidth + 10
-        y: tyreRoot.yDiff * 3
-    }
+    // Text {
+    //     text: "PSI"
+    //     x: parent.width / 10
+    //     y: tyreRoot.yDiff * 2
+    // }
 
-    Text {
-        id: camberText
-        text: "Camber"
-        x: parent.width / 10
-        y: tyreRoot.yDiff * 4
-    }
+    // Text {
+    //     text: "--.-"
+    //     x: parent.width / 10 + camberText.contentWidth + 10
+    //     y: tyreRoot.yDiff * 2
+    // }
 
-    Text {
-        text: "--.-"
-        x: parent.width / 10 + camberText.contentWidth + 10
-        y: tyreRoot.yDiff * 4
-    }
+    // Text {
+    //     text: "Toe"
+    //     x: parent.width / 10
+    //     y: tyreRoot.yDiff * 3
+    // }
 
-    Text {
-        text: "Caster"
-        x: parent.width / 10
-        y: tyreRoot.yDiff * 5
-    }
+    // Text {
+    //     id: camberText
+    //     text: "Camber"
+    //     x: parent.width / 10
+    //     y: tyreRoot.yDiff * 4
+    // }
 
-    Text {
-        text: "--.-"
-        x: parent.width / 10 + camberText.contentWidth + 10
-        y: tyreRoot.yDiff * 5
-    }
+    // Text {
+    //     text: "Caster"
+    //     x: parent.width / 10
+    //     y: tyreRoot.yDiff * 5
+    // }
 }
